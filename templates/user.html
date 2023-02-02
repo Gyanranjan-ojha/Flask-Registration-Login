@@ -17,14 +17,15 @@
 	</div>
 	<br>
 	<div class="row">
-		Logged in :<strong>{{session.username}} </strong> <a href="{{ url_for('logout') }}" class="m-auto"> Logout</a>
+		Logged in :<strong>{{session.username}} </strong> <a href="{{ url_for('logout') }}" class="m-auto"> <button class="btn btn-danger">Logout</button> </a>
 	</div>
 	<br><br>
 	<div class="row">
 		<h2>Welcome to the user profile page...</h2>
 	</div>
 	<div class="row bottom">
-		<p class="bottom">Go to Home Page<a href="{{url_for('home')}}"> Home</a></p>
+		<p class="bottom">Go to Home Page<a href="{{url_for('home')}}"> 
+		<button class="btn btn-sm btn-primary">Home</button>	</a></p>
 	</div>
 </div>
 {% endblock body %}
