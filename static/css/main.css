@@ -1,6 +1,6 @@
-.col-md-4{
+/* .col-md-4{
   outline: 1px solid black !important;
-}
+} */
 
 
 body{
@@ -11,18 +11,18 @@ body{
   background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
 }
 
-/* .buttons button{
+.buttons button{
 justify-content: right;
-} */
-/* .card{
+}
+.card{
   width: fit-content;
   background-color: aquamarine;
   border: #FF0080;
   border-radius: 10%;
-} */
+}
 
-/* .display-4{
+.display-4{
   font-size: 80px;
   margin-top: 100px;
   font-weight: bolder;
-} */
+}
