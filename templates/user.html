@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %} USER PAGE {% endblock title %}
+
+{% block body %}
+<div class="container">
+	{% if message %}
+	<div class="alert alert-success" role="alert">
+		<strong>{{ message }}</strong> 
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	{% endif %}
+	<div class="row">
+		<h2>User profile</h2>
+	</div>
+	<br>
+	<div class="row">
+		Logged in :<strong>{{session.username}} </strong> <a href="{{ url_for('logout') }}" class="m-auto"> Logout</a>
+	</div>
+	<br><br>
+	<div class="row">
+		<h2>Welcome to the user profile page...</h2>
+	</div>
+	<div class="row bottom">
+		<p class="bottom">Go to Home Page<a href="{{url_for('home')}}"> Home</a></p>
+	</div>
+</div>
+{% endblock body %}

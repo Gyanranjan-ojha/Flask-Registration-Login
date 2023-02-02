@@ -1,0 +1,28 @@
+.col-md-4{
+  outline: 1px solid black !important;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #40E0D0; 
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
+}
+
+/* .buttons button{
+justify-content: right;
+} */
+/* .card{
+  width: fit-content;
+  background-color: aquamarine;
+  border: #FF0080;
+  border-radius: 10%;
+} */
+
+/* .display-4{
+  font-size: 80px;
+  margin-top: 100px;
+  font-weight: bolder;
+} */

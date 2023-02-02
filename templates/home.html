@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} HOME PAGE {% endblock title %}
+
+{% block body %}
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md-6 offset-md-1">
+      <h2 class="text-light ">WELCOME</h2>
+      <div class="buttons">
+        <button type="submit" class="btn btn-success"><a href="{{url_for('register')}}" class="text-white">SIGN-UP</a></button>
+        <button type="submit" class="btn btn-primary"><a href="{{url_for('login')}}"class="text-white">LOGIN</a></button>
+      </div>
+      
+      <div class="bottom">
+        <img src="{{url_for('static', filename='images/elden.jpg')}}" alt="elden.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
