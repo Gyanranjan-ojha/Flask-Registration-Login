@@ -34,18 +34,6 @@ SECRET_KEY=''
 
 ## Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/Gyanranjan-ojha/Flask-Registration-Login.git
-```
-
-Go to the project directory
-
-```bash
-  cd Flask-Registration-Login
-```
-
 create a virtual environment
 ```bash
   python/python3 -m venv venv
